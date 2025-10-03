@@ -3,13 +3,15 @@ body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul{
-     display: flex;
-     justify-content:space-between ;
-     list-style: none;
-     align-items: center;
-     padding: 16px;
+.foto-round{
+  width: 150px;        
+  height: 150px;       
+  object-fit: cover;   
+  border-radius: 50%;  
+  display: block;      
+  box-shadow: 0 4px 10px #fffbca26;
 }
+
 a{ 
     color: white;
     text-decoration: none;
